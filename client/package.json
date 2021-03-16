@@ -1,0 +1,42 @@
+{
+  "name": "risechallengeclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --watch",
+    "build:prod": "webpack"
+  },
+  "author": "Jeff Peoples",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sanitize.css": "^12.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/styled-components": "^5.1.8",
+    "@svgr/webpack": "^5.5.0",
+    "@types/react-helmet": "^6.1.0",
+    "file-loader": "^6.2.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "css-loader": "^5.1.2",
+    "expose-loader": "^2.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "typescript-plugin-styled-components": "^1.4.4",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
