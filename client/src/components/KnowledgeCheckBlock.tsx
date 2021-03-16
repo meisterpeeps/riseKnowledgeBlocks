@@ -136,9 +136,9 @@ export const KnowledgeCheckBlock: React.FC<KnowledgeBlock> = (props) => {
                 role='radio'
                 aria-checked={answerState[text]}
                 aria-labelledby={`${id}${text}`}
-                isSubmitted={isSubmitted}
+                isSubmitted={isSubmitted || isResetting}
                 onClick={() => {
-                  if (answerState[text] || isSubmitted) return;
+                  if (answerState[text] || isSubmitted || isResetting) return;
                   updateAnswerState(text);
                 }}
                 key={text}

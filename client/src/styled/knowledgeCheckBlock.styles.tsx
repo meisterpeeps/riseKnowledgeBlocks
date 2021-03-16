@@ -39,7 +39,7 @@ export const Answer = styled.button<Submitted>`
     position: relative;
     width: 100%;
     &:focus {
-        background-color: #f7f7f8;
+        ${(props) => !props.isSubmitted && css`background-color: #f7f7f8;` }
     }
 `
 
